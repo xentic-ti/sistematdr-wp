@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sistematdr-client-side-solution",
+    "id": "8e3748d3-e84e-4556-a65f-b0d42cf28cde",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "SistemaTDR API",
+        "scope": "access_as_user"
+      }
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "sistematdr description"
+      },
+      "longDescription": {
+        "default": "sistematdr description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sistematdr Feature",
+        "description": "The feature that activates elements of the sistematdr solution.",
+        "id": "7ce61405-4c0d-4305-a0a9-b138f376fa05",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sistematdr.sppkg"
+  }
+}

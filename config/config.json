@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sistema-tdr-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sistemaTdr/SistemaTdrWebPart.js",
+          "manifest": "./src/webparts/sistemaTdr/SistemaTdrWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SistemaTdrWebPartStrings": "lib/webparts/sistemaTdr/loc/{locale}.js"
+  }
+}
