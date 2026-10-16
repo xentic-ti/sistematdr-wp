@@ -3,7 +3,7 @@
   "solution": {
     "name": "sistematdr-client-side-solution",
     "id": "8e3748d3-e84e-4556-a65f-b0d42cf28cde",
-    "version": "1.0.0.0",
+    "version": "1.0.0.3",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
